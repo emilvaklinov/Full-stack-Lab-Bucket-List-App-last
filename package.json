@@ -1,0 +1,23 @@
+{
+  "name": "lab_full_stack_bucket_list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server:dev": "nodemon server/server.js",
+    "build": "webpack -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.17.4",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^2.1.5"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongodb": "^3.0.7"
+  }
+}
