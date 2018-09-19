@@ -4,11 +4,13 @@ db.dropDatabase();
 db.list.insertMany([
   {
     activity: "travel",
-    location: "everywhere"
+    location: "everywhere",
+    date: ""
   },
 
   {
     activity: "be happy",
-    location: "everywhere"
+    location: "everywhere",
+    date: ""
   }
 ]);

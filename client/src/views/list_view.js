@@ -27,6 +27,9 @@ ListView.prototype.renderItem = function(listItem){
   const location = this.createDetail('Location', listItem.location);
   listItemContainer.appendChild(location);
 
+  const date = this.createDetail('Date', listItem.date);
+  listItemContainer.appendChild(date);
+
   const deleteButton = this.createDeleteButton(listItem._id);
   listItemContainer.appendChild(deleteButton);
 

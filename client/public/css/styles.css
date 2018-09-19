@@ -1,5 +1,8 @@
 body {
   background-color: wheat;
+  background-image: url('/images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
   text-align: center;
 }
 
@@ -12,4 +15,114 @@ button.delete-btn {
   background-image: url('/images/images.png');
   width: 33px;
   height: 33px;
+}
+
+form#list-form {
+  display: block;
+}
+#form-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+#added {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  text-align-last: center;
+  border-collapse: collapse;
+  margin-left: 190px;
+  color: red;
+  text-decoration: underline;
+
+
+}
+
+label.primary {
+  display: block;
+  width: 500px;
+}
+
+legend { width: 500px;
+  color: #af2116;
+  text-decoration: underline;
+}
+button {
+  border-radius: 5%;
+  padding: 5px 5px;
+  color: #e83d05;
+  font-weight: bold;
+  border: 0px none;
+  border-radius: 5%;
+  padding: 7px 12px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.input {
+  border: 10px none;
+  border-radius: 5%;
+  padding: 5px 5px;
+}
+
+input {
+  margin: .10rem;
+  border-radius: 5%;
+  padding: 5px 5px;
+  text-align: center;
+
+}
+
+element.style {
+  height: 50px;
+  width: 700px;
+}
+
+h1 { text-align: center;
+  text-transform: uppercase;
+
+}
+h2 {
+  font-family: 'Special Elite', cursive;
+  margin: 0px;
+  padding-top: 60px;
+  text-align: center;
+  font-size: 1.8em;
+  color: dark;
+  margin-bottom: 20px;
+  text-decoration: underline;
+
+}
+
+div.form-visitor{
+  flex-direction: row;
+
+}
+div { width: 500px;
+  padding-top: 10px;
+}
+
+div#txt{
+  color: #c5f1f7;
+}
+
+ul#added {
+  /* text-align: center; */
+  width: 1500px;
+
+}
+input#save{
+  font-weight: bold;
+  color: #0ea035;
+  display: flex;
+  flex-direction: column;
+  margin-left: 250px;
+  border: 0px none;
+  border-radius: 5%;
+  padding: 7px 12px;
+  padding-top: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
 }
