@@ -16,6 +16,10 @@ h1{
   padding-right: 570px;
 }
 
+p{
+  color: red;
+}
+
 button.delete-btn {
   background-image: url('/images/images.png');
   width: 33px;
