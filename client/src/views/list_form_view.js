@@ -23,7 +23,8 @@ ListFormView.prototype.handleSubmit = function (event) {
   ListFormView.prototype.createList = function (form) {
     const newList = {
       activity: form.activity.value,
-      location: form.location.value
+      location: form.location.value,
+      date: form.date.value
     };
 
     return newList;
