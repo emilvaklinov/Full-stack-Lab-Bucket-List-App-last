@@ -9,12 +9,18 @@ body {
 h1{
   color: darkred;
   text-transform: uppercase;
+  font-family: fantasy;
+  background-color: white;
+  background-clip: content-box;
+  padding-left: 570px;
+  padding-right: 570px;
 }
 
 button.delete-btn {
   background-image: url('/images/images.png');
   width: 33px;
   height: 33px;
+  background-repeat: no-repeat;
 }
 
 form#list-form {
